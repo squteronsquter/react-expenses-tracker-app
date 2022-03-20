@@ -1,7 +1,7 @@
 import "./ExpenseItem.css";
-import ExpenseDate from "../ExpenseDate/ExpenseDate";
+import ExpenseDate from "./ExpenseDate";
 
-function ExpenseItem(props) {
+const ExpenseItem = (props) => {
   return (
     <>
       <div className="expense-container">
@@ -11,6 +11,6 @@ function ExpenseItem(props) {
       </div>
     </>
   );
-}
+};
 
 export default ExpenseItem;
